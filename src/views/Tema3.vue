@@ -7,19 +7,20 @@
         span 3
       h1 Reglamento aeronáutico
 
-    p(data-aos="fade-up") El reglamento aeronáutico contiene una serie de normas y procedimientos adoptados y/o expedidos por la Uaeac (Unidad Administrativa Especial de Aeronáutica Civil), con el único fin de implementar y controlar las normas y métodos recomendados por los anexos al Convenio sobre Aviación Civil Internacional u otras normas aeronáuticas para Colombia.
+    p(data-aos="fade-up") El reglamento aeronáutico contiene una serie de normas y procedimientos adoptados y/o expedidos por la UAEAC (Unidad Administrativa Especial de Aeronáutica Civil), con el único fin de implementar y controlar las normas y métodos recomendados por los anexos al Convenio sobre Aviación Civil Internacional u otras normas aeronáuticas para Colombia.
 
-    p.mt-4(data-aos="fade-up") #[strong Para nuestro país, existe el RAC (Reglamentos Aeronáuticos de Colombia)], creado a partir de la Resolución 2450 del 19 de diciembre 1974 que establece que corresponde a la Aerocivil, en su condición de autoridad aeronáutica en Colombia, establecer los requisitos técnicos que deban reunir las aeronaves, dictar las normas sobre operación y mantenimiento de las mismas y certificar su aeronavegabilidad y condiciones de operación. Igualmente armonizar los Reglamentos Aeronáuticos de Colombia - RAC con las disposiciones que promulgue la Organización de Aviación Civil Internacional y garantizar el cumplimiento del Convenio sobre Aviación Civil Internacional junto con sus anexos, tal y como se dispone en el numeral 5° del artículo 2° del Decreto 823 de 2017, que modificó el artículo 5° del Decreto 260 de 2004 mediante Resolución 2450 de 1974, modificada mediante Resolución 2617 de 1999, así la Unidad Administrativa Especial de Aeronáutica Civil, en uso de sus facultades legales, adoptó e incorporó en su momento al Reglamentos Aeronáuticos de Colombia la Parte Primera (hoy RAC 1) de dichos reglamentos, denominada “Disposiciones generales” la cual ha sido objeto de varias modificaciones parciales posteriores, que le adicionaron las definiciones, abreviaturas y acrónimos, contenidos en los anexos al Convenio sobre Aviación Civil Internacional.
+    p.mt-4(data-aos="fade-up") #[strong Para nuestro país, existe el RAC (Reglamentos Aeronáuticos de Colombia)], creado a partir de la Resolución 2450 del 19 de diciembre 1974 que establece que corresponde a la Aerocivil, en su condición de autoridad aeronáutica en Colombia, establecer los requisitos técnicos que deban reunir las aeronaves, dictar las normas sobre operación y mantenimiento de las mismas y certificar su aeronavegabilidad y condiciones de operación. Igualmente armonizar los Reglamentos Aeronáuticos de Colombia - RAC con las disposiciones que promulgue la Organización de Aviación Civil Internacional y garantizar el cumplimiento del Convenio sobre Aviación Civil Internacional junto con sus anexos, tal y como se dispone en el numeral 5° del artículo 2° del Decreto 823 de 2017, que modificó el artículo 5° del Decreto 260 de 2004 mediante Resolución 2450 de 1974, modificada mediante Resolución 2617 de 1999, así la Unidad Administrativa Especial de Aeronáutica Civil, en uso de sus facultades legales, adoptó e incorporó en su momento a Reglamentos Aeronáuticos de Colombia la Parte Primera (hoy RAC 1) de dichos reglamentos, denominada “Disposiciones generales” la cual ha sido objeto de varias modificaciones parciales posteriores, que le adicionaron las definiciones, abreviaturas y acrónimos, contenidos en los anexos al Convenio sobre Aviación Civil Internacional.
 
 
     .tarjeta.text-white.p-3.mt-5.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema2/12.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg" style="max-width:100px;")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(style="color: #12263F !important;") Elementos importantes de la atención #[br] en tierra al viajero
+              h3(style="color: #12263F !important;") RAC 1
+              p.mt-3(style="color: #12263F !important;") Con el fin de ampliar información sobre: cuestiones preliminares, disposiciones iniciales,  definiciones y abreviaturas, descargue el siguiente documento.
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/RAC  1 -  Definiciones.pdf')" target="_blank")
                 span.text-white Descargar
@@ -28,7 +29,7 @@
     br
     br
     .titulo-segundo.mt-5
-      h2#t_3_1 3.1. Definición
+      h2#t_3_1 3.1 Definición
 
     p(data-aos="fade-up") Para un buen desarrollo en la actividad aérea se debe establecer un conjunto de procedimientos y requisitos de estricto cumplimiento, para esto la OACI, organismo que regula la aviación civil internacional, crea la reglamentación necesaria para los Estados contratantes. Así, toda persona que desarrolle una actividad en una empresa aérea con los clientes o cumpla una actividad en la operación aeroportuaria, debe conocer los documentos o manuales donde presenta información y explicación ordenada y clara de cada proceso en las diferentes áreas en materia de navegación y seguridad aérea. El funcionario debe aplicar y tener conocimiento de la terminología allí consignada para un buen desempeño en su labor diaria.
 
@@ -61,14 +62,14 @@
               h3(data-aos="fade-up" style="color: #12263F !important;") Manual
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para conocer detalladamente sobre el Manual con la Reglamentación del Transporte Aéreo Internacional, consulte el siguiente enlace: 
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" href="https://www.icao.int/Meetings/atconf6/Documents/Doc%209626_es.pdf" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc 9626_es.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
     br
     br
     .titulo-segundo.mt-5
-      h2#t_3_2 3.2. Derechos y deberes
+      h2#t_3_2 3.2 Derechos y deberes
 
     p(data-aos="fade-up") Se han establecido deberes y derechos para la prestación del servicio aéreo, algunos de estos derechos están protegidos por convenios como el de Varsovia, que rige la responsabilidad de los transportistas aéreos en caso de accidentes, pérdida de equipaje y demoras, para obtener protección o compensación si el servicio no es brindado y se especifica en reglamentos gubernamentales o en el contrato de transporte aéreo.
 
@@ -121,40 +122,40 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    h5.mt-5(data-aos="fade-up") Derechos de los usuarios antes de viajar
+    h5.mt-5(data-aos="fade-up") Derecho a la reclamación
 
     .tarjeta.text-white.p-3.mt-5.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg" style="max-width:100px;")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Derechos y deberes de los usuarios
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Según lo previsto en la Ley 1955 de 2019, la Superintendencia de Transporte presenta las disposiciones sobre la protección al usuario del Transporte aéreo y con el Decreto 2409 le corresponde impartir la debida prestación del servicio público de transporte que se divulga por medio de la Guía de los derechos y deberes de los usuarios en el siguiente enlace:
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" href="https://www.supertransporte.gov.co/documentos/2021/Marzo/DelegaturaPU_10/guia-aereo_12.pdf" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/guia-aereo_12.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
     .tarjeta.text-white.p-3.mt-4.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg" style="max-width:100px")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Manual sobre reglamentación del transporte aéreo internacional
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Mediante documento emitido por la OACI Doc. 9626 Manual sobre reglamentación del transporte aéreo internacional, en el capítulo 4.9 Pasajeros de las líneas aéreas - Derechos de los pasajeros, se puede ampliar la información de directrices a seguir en todos los protocolos de atención, para ello se presenta el siguiente enlace:
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" href="https://www.icao.int/Meetings/atconf6/Documents/Doc%209626_es.pdf" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc 9626_es (2).pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
     br
     br
     .titulo-segundo.mt-5
-      h2#t_3_3 3.3. Procedimientos regulatorios
+      h2#t_3_3 3.3 Procedimientos regulatorios
 
     p(data-aos="fade-up") Para hablar de procedimientos regulatorios se debe tener en cuenta que estos se enfocan en proteger las personas involucradas en los distintos procesos relacionados a la aviación (tripulantes, personal en tierra, usuarios, etc.), con el fin de garantizar una operación aérea segura y confiable según los estándares mundiales.
 
@@ -203,14 +204,14 @@
     .tarjeta.text-white.p-3.mt-5.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg" style="max-width:100px")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Programa estatal para la gestión de autoridad en seguridad ocupacional
-              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") En materia de autoridad en seguridad operacional, la Aeronáutica Civil presenta el documento denominado Programa estatal para la gestión de autoridad en seguridad ocupacional, que se puede consultar en el siguiente enlace:
+              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") En materia de autoridad en seguridad operacional, la Aeronáutica Civil presenta el documento denominado Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional, que se puede consultar en el siguiente enlace:
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" href="https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/PublishingImages/PEGASO%20Rev.3%20-%20SSP%20Colombia.pdf" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/PEGASO Rev.3 - SSP Colombia.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
@@ -253,7 +254,7 @@
               p.mb-0 #[strong Limpieza y presentación de las aeronaves.]
             li(data-aos="fade-up")
               i.fas.fa-check(style="color: #8C6DF2;")
-              p.mb-0 #[strong Push Back o remolque a las calles de rodaje.]
+              p.mb-0 #[strong #[em Push Back] o remolque a las calles de rodaje.]
             li(data-aos="fade-up")
               i.fas.fa-check(style="color: #8C6DF2;")
               p.mb-0 #[strong Guía de parqueo.]
@@ -265,7 +266,7 @@
               p.mb-0 #[strong Inspección de la aeronave.]
             li(data-aos="fade-up")
               i.fas.fa-check(style="color: #8C6DF2;")
-              p.mb-0 #[strong Marshaller (encargado de llevar la aeronave al punto de parqueo).]
+              p.mb-0 #[strong #[em Marshaller] (encargado de llevar la aeronave al punto de parqueo).]
 
         .col-md-5(style="place-self: center;")
           figure.text-center
@@ -285,11 +286,11 @@
     br
     br
     .titulo-segundo.mt-5
-      h2#t_3_5 3.5. Manejo de mercancías peligrosas
+      h2#t_3_5 3.5 Manejo de mercancías peligrosas
 
     .row
       .col-md-7.mb-3
-        p.p-4(data-aos="fade-up") La adecuada información e interacción que se tenga en atención con el pasajero en el counter ayudará a detectar si de los elementos personales o de trabajo que está transportando el pasajero, en su equipaje de mano o bodega, alguno se considera elemento o mercancía peligrosa; para esto, se debe tener conocimiento de cuáles son las mercancías peligrosas y qué tipo de ellas existen, identificándolas y evitando poner en riesgo potencial la vida de las personas en los vuelos.
+        p.p-4(data-aos="fade-up") La adecuada información e interacción que se tenga en atención con el pasajero en el #[em counter] ayudará a detectar si de los elementos personales o de trabajo que está transportando el pasajero, en su equipaje de mano o bodega, alguno se considera elemento o mercancía peligrosa; para esto, se debe tener conocimiento de cuáles son las mercancías peligrosas y qué tipo de ellas existen, identificándolas y evitando poner en riesgo potencial la vida de las personas en los vuelos.
       
       .col-md-5
         figure
@@ -305,31 +306,31 @@
       .col-md-6
         p.p-4(data-aos="fade-up") Todo equipaje que por su naturaleza represente un riesgo en la seguridad del vuelo, debe ser chequeado bajo regulaciones establecidas por la IATA. Entre los materiales restringidos que, comúnmente se encuentran entre los equipajes, se tiene hielo seco, baterías de sillas de rueda, aerosoles, perfumes, cerillos, encendedores para cocinas, entre otros; los artículos que no cumplan con las especificaciones requeridas no podrán ser transportados como equipaje.
 
-    p.mt-5(data-aos="fade-up") Mediante la Resolución 06352 del 14 de noviembre de 2013 de la UAEAC, se adoptó una nueva metodología y sistema de nomenclatura para el Reglamentos Aeronáuticos de Colombia, en aras de su armonización con los Reglamentos Aeronáuticos Latinoamericanos – LAR, con lo cual, la parte décima del RAC (Reglamento Aeronáutico Colombiano), pasó a denominarse RAC 175, sobre transporte sin riesgo de mercancías peligrosas por vía aérea, esto para armonizar las normas colombianas en materia de mercancías peligrosas, con las disposiciones propuestas por el Sistema Regional de Cooperación para la vigilancia de la seguridad operacional.
+    p.mt-5(data-aos="fade-up") Mediante la Resolución 06352 del 14 de noviembre de 2013 de la UAEAC, se adoptó una nueva metodología y sistema de nomenclatura para los Reglamentos Aeronáuticos de Colombia, en aras de su armonización con los Reglamentos Aeronáuticos Latinoamericanos – LAR, con lo cual, la parte décima del RAC (Reglamento Aeronáutico Colombiano), pasó a denominarse RAC 175, sobre transporte sin riesgo de mercancías peligrosas por vía aérea, esto para armonizar las normas colombianas en materia de mercancías peligrosas, con las disposiciones propuestas por el Sistema Regional de Cooperación para la vigilancia de la seguridad operacional.
 
     br
     .tarjeta.text-white.p-3.mt-5.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg" style="max-width:100px")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Reglamentos Aeronáuticos de Colombia
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para la seguridad aeronáutica tanto de pasajeros como de personal de las aerolíneas, se debe cumplir con todos los protocolos de seguridad dispuestos. Con el fin de ampliar esta información, se recomienda consultar el documento RAC 175 de la Aeronáutica Civil Colombiana denominado Transporte sin riesgos de mercancías peligrosas en el siguiente enlace:
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" href="https://www.aerocivil.gov.co/normatividad/VERSION%20DIC%2031%202016/RAC%20%20175%20-%20Transporte%20sin%20Riesgo%20de%20Mercancías%20Peligrosas%20por%20vía%20Aérea.pdf" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/RAC  175 - Transporte sin Riesgo de Mercancías Peligrosas por vía Aérea.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
     .tarjeta.text-white.p-3.mt-5.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg" style="max-width:100px")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Clasificación de Mercancias Peligrosas
+              h3(data-aos="fade-up" style="color: #12263F !important;") Clasificación de Mercancías Peligrosas
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") El Comité de Expertos en Transporte de Mercancías Peligrosas de las Naciones Unidas, clasifica las mercancías peligrosas identificándolas en nueve (9) grupos de riesgos potenciales para su transporte aéreo. Se recomienda descargar el documento para revisar la clasificación de este tipo de mercancías.
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Mercancias peligrosas.xlsx')" target="_blank")

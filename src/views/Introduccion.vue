@@ -12,7 +12,7 @@
 
     p(data-aos="fade-up") El cliente es la razón de ser de la mayoría de las organizaciones, por tanto, identificar de manera precisa sus necesidades y orientarlo en la toma de decisiones contribuye con los propósitos estratégicos de las compañías aéreas.
 
-    h3.mt-5(data-aos="fade-up") Aeropuerto Internacional Suvarnabhumi en Bangkok.
+    h3.mt-5(data-aos="fade-up") Aeropuerto Internacional Suvarnabhumi en Bangkok
 
     p(data-aos="fade-up") Este aeropuerto tiene la torre de control más alta del mundo y es la tercera terminal más grande del planeta.
 

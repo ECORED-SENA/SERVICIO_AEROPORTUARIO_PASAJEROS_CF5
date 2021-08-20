@@ -51,4 +51,14 @@ export default {
   border-left: solid 50px #8C6DF2 !important
 .titulo-principal__numero
   background-color: #5038A1 !important
+@media (max-width: 1000px)
+  .slyder-d__content
+    position: relative !important
+    transform: translateY(0px) !important
+  .horizontal-scroll__wrapper
+    height: auto !important
+.horizontal-scroll__wrapper
+  height: 56pc
+.slyder-d__content
+  transform: translateY(220px)
 </style>

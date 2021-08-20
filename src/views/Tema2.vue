@@ -40,7 +40,7 @@
     br
     br
     .titulo-segundo.mt-5
-      h2#t_2_1 2.1. Cargos y funciones
+      h2#t_2_1 2.1 Cargos y funciones
 
     p(data-aos="fade-up") En las líneas aéreas se requiere una diversidad de funcionarios, altamente calificados y con un conocimiento amplio de los protocolos y políticas de las empresas, para cubrir todas las necesidades en las áreas de atención al usuario en el aeropuerto.
 
@@ -52,7 +52,7 @@
           i.fas.fa-check(style="color: #8C6DF2;")
           |   El organigrama de la empresa aeronáutica constituye una fuente autorizada de consulta con fines de información e indica la jerarquía que guardan entre sí los principales órganos que integran una dependencia.
 
-      h5.mt-4(data-aos="fade-up") La empresa se organiza en cuatro áreas operativas así.
+      h5.mt-4(data-aos="fade-up") La empresa se organiza en cuatro áreas operativas así:
 
       ul.lista-ul.mt-4
         li(data-aos="fade-up")
@@ -68,11 +68,13 @@
           i.fas.fa-check(style="color: #8C6DF2;")
           |   Área de control de calidad.
 
+    p.mt-5(data-aos="fade-up") En la siguiente figura se presenta un organigrama con las áreas y jerarquías más representativas de una empresa aérea.
+
     p.mt-5(data-aos="fade-up" style="padding:4px 4px 0px 14px;border-left:5px #8C6DF2 solid;") #[strong Figura 5] Organigrama empresa aérea
 
     figure.mt-5.text-center
       img.imagen_flotante_animada(src="@/assets/curso/tema2/3.svg" style="max-width:80px;display:inline;")
-    h4.mt-2.text-center(data-aos="fade-up") Organigrama Aerolinea
+    h4.mt-2.text-center(data-aos="fade-up") Organigrama Aerolínea
 
     figure.mt-4.text-center
       img.image_floating(src="@/assets/curso/tema2/4.svg")
@@ -92,25 +94,25 @@
         p.mt-4(data-aos="fade-up") Es el encargado de la operación de vuelos programados diariamente y del personal asignado en cada área de servicio a pasajero, asiste a reuniones de operaciones aéreas y horarios.
       div
         h4(data-aos="fade-up") Supervisor de tráfico aéreo: 
-        p.mt-4(data-aos="fade-up") Es quien supervisa que todos los módulos de check-in, abordaje, oficina de ventas, y puntos de atención cuenten con el personal suficiente, verificando que la asesoría y servicio al pasajero se realice de manera cordial y adecuada, también realiza el cierre de los vuelos por sistema.
+        p.mt-4(data-aos="fade-up") Es quien supervisa que todos los módulos de #[em check-in], abordaje, oficina de ventas, y puntos de atención cuenten con el personal suficiente, verificando que la asesoría y servicio al pasajero se realice de manera cordial y adecuada, también realiza el cierre de los vuelos por sistema.
       div
         h4(data-aos="fade-up") Supervisor del área de equipajes: 
-        p.mt-4(data-aos="fade-up") supervisa que el personal esté en sus puntos de atención con los elementos requeridos para su labor y realizando rastreo, localización y entrega de equipaje, objetos perdidos u olvidados, así con el resguardo de los mismos y las estadísticas de irregularidades de equipajes.
+        p.mt-4(data-aos="fade-up") Supervisa que el personal esté en sus puntos de atención con los elementos requeridos para su labor y realizando rastreo, localización y entrega de equipaje, objetos perdidos u olvidados, así con el resguardo de los mismos y las estadísticas de irregularidades de equipajes.
       div
         h4(data-aos="fade-up") Agente de servicio al pasajero:
         p.mt-4(data-aos="fade-up") Funcionario que brinda atención personalizada en los diferentes puntos de atención al viajero, asesorando, informando y verificando la adecuada documentación del pasajero, apoya los manejos de sobreventa, demoras, contingencias que se presenten en los vuelos, realiza la documentación de viaje (pase de abordar) y de equipaje (etiqueta de equipaje) y acumulación de millas.
       div
         h4(data-aos="fade-up") Agente de equipajes: 
-        p.mt-4(data-aos="fade-up") es quien debe asistir a los pasajeros en el recibo y entrega de sus equipajes, para brindar soluciones oportunas, justas y satisfactorias cuando existan inconvenientes con sus equipajes en los puntos de bandas de recepción de equipajes del aeropuerto, verificando el correcto funcionamiento de la banda y llegada del equipaje en los tiempos establecidos.
+        p.mt-4(data-aos="fade-up") Es quien debe asistir a los pasajeros en el recibo y entrega de sus equipajes, para brindar soluciones oportunas, justas y satisfactorias cuando existan inconvenientes con sus equipajes en los puntos de bandas de recepción de equipajes del aeropuerto, verificando el correcto funcionamiento de la banda y llegada del equipaje en los tiempos establecidos.
       div
         h4(data-aos="fade-up") Agente de pasajes y reservaciones: 
-        p.mt-4(data-aos="fade-up") funcionario encargado de hacer la venta, reservación, cambios y revisión de boletos de avión en las conexiones requeridas con dicha aerolínea o con las que tenga convenio.
+        p.mt-4(data-aos="fade-up") Funcionario encargado de hacer la venta, reservación, cambios y revisión de boletos de avión en las conexiones requeridas con dicha aerolínea o con las que tenga convenio.
       div
         h4(data-aos="fade-up") Agente de salas de abordaje: 
         p.mt-4(data-aos="fade-up") Se ubica en la sala asignada para el abordaje, verificando pase de abordar, los servicios de recomendados, revisando equipajes de mano que no pueda ir en cabina, detectando los pasajeros de atención especial para abordar al inicio o al final, dar los anuncios correspondientes de salida, abordar los pasajeros de acuerdo con los protocolos y corroborar con la tripulación los pasajeros abordados para dar cierre de abordaje al vuelo.
       div
         h4(data-aos="fade-up") Funcionarios de atención en salas VIP: 
-        p.mt-4(data-aos="fade-up") le brinda atención personalizada al pasajero, informa de todos los servicios en el lugar, le comunica sobre novedades del vuelo y le indica la hora de pasar a abordar.
+        p.mt-4(data-aos="fade-up") Le brinda atención personalizada al pasajero, informa de todos los servicios en el lugar, le comunica sobre novedades del vuelo y le indica la hora de pasar a abordar.
 
     br
     br
@@ -161,15 +163,13 @@
     figure.mt-5.col-md-10.m-auto
       img(src="@/assets/curso/tema2/11.svg" data-aos="fade-up")
 
-    figcaption.mt-5.col-md-3(data-aos="fade-up") Nota. Tomada de  https://pixabay.com
-
     p.mt-5(data-aos="fade-up") Ahora, se pueden revisar detenidamente los elementos importantes de la atención en tierra al viajero, sus roles y funciones dentro del aeropuerto para prestar un excelente servicio, estos son:
 
     br
     .tarjeta.text-white.p-3.mt-5.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema2/12.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema2/12.svg" style="max-width:100px;")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -196,7 +196,7 @@ export default {
       {
         titulo: 'Airbus 318/319/320/321',
         texto:
-          'Aviones diseñados de mediano/ largo alcance de un solo pasillo, con capacidad de pasajeros entre 136 a 230, el A321 tiene la menor cantidad de emisiones, ruido y consumo de combustible.<br></br> La aeronave A320 es un equipo eficiente, silencioso y ecológico, cuenta con el sistema de prevención de salidas de pista. Dentro de la familia AirBus también encontramos los A320 NEO (New Engine Option) y A320 CEO (Current Engine Option), que hace referencia a la instalación del tipo de motor.',
+          'Aviones diseñados de mediano / largo alcance de un solo pasillo, con capacidad de pasajeros entre 136 a 230, el A321 tiene la menor cantidad de emisiones, ruido y consumo de combustible.<br></br> La aeronave A320 es un equipo eficiente, silencioso y ecológico, cuenta con el sistema de prevención de salidas de pista. Dentro de la familia AirBus también encontramos los A320 NEO (New Engine Option) y A320 CEO (Current Engine Option), que hace referencia a la instalación del tipo de motor.',
         imagen: require('@/assets/curso/tema2/6.svg'),
       },
       {

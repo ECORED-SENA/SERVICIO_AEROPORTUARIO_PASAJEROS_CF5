@@ -104,12 +104,6 @@ export default {
             titulo: 'Manejo de mercancías peligrosas',
             hash: 't_3_5',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
         ],
       },
     ],
@@ -168,7 +162,7 @@ export default {
     },
     {
       referencia:
-        'Unidad Administrativa Especial de Aeronáutica Civil. (s.f.). Programa estatal para la gestión de autoridad en seguridad operacional. Aerocivil. ',
+        'Unidad Administrativa Especial de Aeronáutica Civil. (s.f.). Programa Estatal para la Gestión de Autoridad en Seguridad Operacional. Aerocivil. ',
       link:
         'https://www.aerocivil.gov.co/autoridad-de-la-aviacion-civil/PublishingImages/PEGASO%20Rev.3%20-%20SSP%20Colombia.pdf',
     },
@@ -181,12 +175,13 @@ export default {
     {
       termino: 'Condiciones aeronavegables',
       significado:
-        'condiciones que hacen que el vuelo sea seguro, es decir, que tenga, tripulación apta para operar el vuelo, la aeronave debe cumplir con todos requisitos para volar, condiciones climáticas seguras a lo largo del plan de vuelo, etc.',
+        'condiciones que hacen que el vuelo sea seguro, es decir, que tenga, tripulación apta para operar el vuelo, la aeronave debe cumplir con todos los requisitos para volar, condiciones climáticas seguras a lo largo del plan de vuelo, etc.',
     },
     {
       termino: 'Counter',
+      termHTML: '<em>Counter</em>',
       significado:
-        'área en la que se lleva a cabo el proceso de registro o proceso de Check in, allí el agente de la aerolínea recibe el equipaje y verifica documentación.',
+        'área en la que se lleva a cabo el proceso de registro o proceso de <em>Check in</em>, allí el agente de la aerolínea recibe el equipaje y verifica documentación.',
     },
     {
       termino: 'HUB de conexiones',
@@ -210,8 +205,9 @@ export default {
     },
     {
       termino: 'Push Back',
+      termHTML: '<em>Push Back</em>',
       significado:
-        'procedimiento en el cual se remolca un avión desde la puerta de embarque hasta la calle de rodaje. Lo efectúa un vehículo, comúnmente nombrado tractor de remolque que se une al avión mediante una barra denominada towbar.',
+        'procedimiento en el cual se remolca un avión desde la puerta de embarque hasta la calle de rodaje. Lo efectúa un vehículo, comúnmente nombrado tractor de remolque que se une al avión mediante una barra denominada <em>towbar</em>.',
     },
     {
       termino: 'Saqueo',
@@ -250,7 +246,35 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Claudia Ávila Ramírez',
+        cargo: 'Experta temática',
+        centro:
+          'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Bogotá',
+      },
+      {
+        nombre: 'Lida Guanumen Riaño',
+        cargo: 'Experta temática de apoyo',
+        centro:
+          'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Bogotá',
+      },
+      {
+        nombre: 'Gloria Amparo López Escudero',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -258,43 +282,55 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Carlos Julián Ramírez Benítez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

@@ -110,7 +110,7 @@
             img.image_floating(style="border-radius:9px;" src="@/assets/curso/tema1/11.svg" data-aos="fade-up")
           .p-4
             h4.mt-3(data-aos="fade-up") Edificio de operación
-            p.mt-4(data-aos="fade-up") Debe contar con facilidades para la atención a pasajeros, debe garantizar, el proceso en áreas como de registro y entrega de equipajes (Check in), salas de abordaje, zona de alimentación, salubridad, migración, acceso para personas en condición de discapacidad, zonas para el manejo de equipajes (bandas de equipaje, procesos de seguridad, clasificación, conexiones).
+            p.mt-4(data-aos="fade-up") Debe contar con facilidades para la atención a pasajeros, debe garantizar, el proceso en áreas como de registro y entrega de equipajes (#[em Check in]), salas de abordaje, zona de alimentación, salubridad, migración, acceso para personas en condición de discapacidad, zonas para el manejo de equipajes (bandas de equipaje, procesos de seguridad, clasificación, conexiones).
 
     br
     br
@@ -162,72 +162,72 @@
           figure
             img(src="@/assets/curso/tema1/20.svg")
           .newsCaption(style="background-color:#8C6DF2")
-            h2.newsCaption-title.text-white.text-center Servicios de rampa
+            h4.newsCaption-title.text-white.text-center Servicios de rampa
             .newsCaption-content
-              p.mt-5.text-white.p-3 Personal que asiste a las aeronaves en tierra, encargados de procedimientos como embarque y desembarque de carga, equipajes, pasajeros y mensajería.
+              p.text-white.p-3 Personal que asiste a las aeronaves en tierra, encargados de procedimientos como embarque y desembarque de carga, equipajes, pasajeros y mensajería.
 
       .col-md-6.mb-4
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/21.svg")
           .newsCaption(style="background-color:#FFDC72")
-            h2.newsCaption-title.text-center(style="color:#5038A1;") Suministro de combustible
+            h4.newsCaption-title.text-center(style="color:#5038A1;") Suministro de combustible
             .newsCaption-content
-              p.mt-5.p-3(style="color:#5038A1;") Encargados de realizarse el abastecimiento de combustible siguiendo diversas normas técnicas para garantizar la seguridad de la aeronave, del aeropuerto, de la carga, de los operadores y usuarios.
+              p.p-3(style="color:#12263F;") Encargados de realizar el abastecimiento de combustible siguiendo diversas normas técnicas para garantizar la seguridad de la aeronave, del aeropuerto, de la carga, de los operadores y usuarios.
 
       .col-md-6.mb-4
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/22.svg")
-          .newsCaption(style="background-color:#8C6DF2;padding:17px;")
-            h2.p-0.newsCaption-title.text-white.text-center Suministro de alimentos (#[em Catering])
+          .newsCaption(style="background-color:#8C6DF2;")
+            h4.p-0.newsCaption-title.text-white.text-center Suministro de alimentos (#[em Catering])
             .newsCaption-content
-              p.mt-5.text-white.p-3 Encargados de proveer el servicio a bordo de las aeronaves, siempre cumpliendo normas sanitarias, de higiene y de protección del personal.
+              p.text-white.p-3 Encargados de proveer el servicio a bordo de las aeronaves, siempre cumpliendo normas sanitarias, de higiene y de protección del personal.
 
       .col-md-6.mb-4
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/23.svg")
-          .newsCaption(style="background-color:#FFDC72;padding:17px;")
-            h2.newsCaption-title.text-center.p-0(style="color:#5038A1;") Terminales de almacenamiento y de carga
+          .newsCaption(style="background-color:#FFDC72;")
+            h4.newsCaption-title.text-center.p-0(style="color:#5038A1;") Terminales de almacenamiento y de carga
             .newsCaption-content
-              p.mt-5.p-3(style="color:#5038A1;") Zona de servicios para el manejo de mercancías, el cual debe contar con infraestructura especial, balanzas en buen estado, certificaciones de calibración; instalaciones señalizadas; certificaciones y áreas especiales para mercancías peligrosas, valores, animales vivos; así como contar con implementos de seguridad.
+              p.p-3(style="color:#12263F;") Zona de servicios para el manejo de mercancías, el cual debe contar con infraestructura especial, balanzas en buen estado, certificaciones de calibración; instalaciones señalizadas; certificaciones y áreas especiales para mercancías peligrosas, valores, animales vivos; así como contar con implementos de seguridad.
 
       .col-md-6.mb-4
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/24.svg")
-          .newsCaption(style="background-color:#8C6DF2;padding:17px;")
-            h2.p-0.newsCaption-title.text-white.text-center Equipos de apoyo terrestre en plataforma
+          .newsCaption(style="background-color:#8C6DF2;")
+            h4.p-0.newsCaption-title.text-white.text-center Equipos de apoyo terrestre en plataforma
             .newsCaption-content
-              p.mt-5.text-white.p-3 Aquí encontramos los servicios de limpieza y presentación de las aeronaves. Deberá contarse con los implementos mínimos de seguridad en forma permanente.
+              p.text-white.p-3 Aquí encontramos los servicios de limpieza y presentación de las aeronaves. Deberá contarse con los implementos mínimos de seguridad en forma permanente.
 
       .col-md-6.mb-4
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/25.svg")
           .newsCaption(style="background-color:#FFDC72;")
-            h2.newsCaption-title.text-center.p-0(style="color:#5038A1;") Mantenimiento de aeronaves
+            h4.newsCaption-title.text-center.p-0(style="color:#5038A1;") Mantenimiento de aeronaves
             .newsCaption-content
-              p.mt-5.p-3(style="color:#5038A1;") Encargados de los trabajos y servicios técnicos para mantener las aeronaves en condiciones aeronavegables.
+              p.p-3(style="color:#12263F;") Encargados de los trabajos y servicios técnicos para mantener las aeronaves en condiciones aeronavegables.
 
       .col-md-6.mb-4
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/26.svg")
           .newsCaption(style="background-color:#8C6DF2;")
-            h2.p-0.newsCaption-title.text-white.text-center Personal de atención a pasajeros
+            h4.p-0.newsCaption-title.text-white.text-center Personal de atención a pasajeros
             .newsCaption-content
-              p.mt-5.text-white.p-3 Es el personal encargado de brindar a los pasajeros la atención requerida para llevar a cabo su proceso de viaje, en esta área encontramos personal en áreas como, ventas, registro o Check in de vuelos, salas de abordaje, conexiones, bandas de equipaje, salas VIP.
+              p.text-white.p-3 Es el personal encargado de brindar a los pasajeros la atención requerida para llevar a cabo su proceso de viaje, en esta área encontramos personal en áreas como, ventas, registro o #[em Check in] de vuelos, salas de abordaje, conexiones, bandas de equipaje, salas VIP.
 
       .col-md-6.mb-4
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/27.svg")
           .newsCaption(style="background-color:#FFDC72;")
-            h2.newsCaption-title.text-center.p-0(style="color:#5038A1;") Personal de vuelo
+            h4.newsCaption-title.text-center.p-0(style="color:#5038A1;") Personal de vuelo
             .newsCaption-content
-              p.mt-5.p-3(style="color:#5038A1;") Hace referencia al personal en la cabina de vuelo, específicamente se habla del comandante, copiloto, Ingenieros de vuelo, tripulantes de cabina de pasajeros, estos últimos son los encargados del servicio a bordo de pasajeros.
+              p.p-3(style="color:#12263F;") Hace referencia al personal en la cabina de vuelo, específicamente se habla del comandante, copiloto, Ingenieros de vuelo, tripulantes de cabina de pasajeros, estos últimos son los encargados del servicio a bordo de pasajeros.
 
     br
     h3.mt-5(data-aos="fade-up") Operadores de servicios aeroportuarios
@@ -263,7 +263,7 @@ export default {
       {
         titulo: ' Aeropuerto de carga aérea',
         texto:
-          'Son especializados para servicios en el manejo de mercancías en grandes cantidades, debe contar con facilidades como balanzas, certificaciones de calibración, instalaciones señalizadas, áreas especiales para el manejo de mercancías peligrosas, valores, animales vivos, también debe tener con implementos de seguridad.',
+          'Son especializados para servicios en el manejo de mercancías en grandes cantidades, debe contar con facilidades como balanzas, certificaciones de calibración, instalaciones señalizadas, áreas especiales para el manejo de mercancías peligrosas, valores, animales vivos, también debe tener implementos de seguridad.',
         imagen: require('@/assets/curso/tema1/13.svg'),
       },
       {
@@ -429,7 +429,7 @@ export default {
   width: 100%
   height: 100%
   background-color: #000
-  padding: 25px
+  padding: 5px
   -webkit-transform: translateY(80%)
           transform: translateY(80%)
   -webkit-backface-visibility: hidden
@@ -438,10 +438,16 @@ export default {
   transition: opacity 0.1s 0.3s, -webkit-transform 0.4s
   transition: transform 0.4s, opacity 0.1s 0.3s
   transition: transform 0.4s, opacity 0.1s 0.3s, -webkit-transform 0.4s
+  display: grid
+  align-content: stretch
+  justify-content: space-evenly
+  align-items: baseline
 .newsCaption-title
   margin-top: 0px
 .newsCaption-content
   margin: 0
+  display: table-cell
+  vertical-align: middle
 .newsCaption-link
   color: #fff
   text-decoration: underline
