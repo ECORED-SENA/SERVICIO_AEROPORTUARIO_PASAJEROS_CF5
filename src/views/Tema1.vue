@@ -443,7 +443,7 @@ export default {
   justify-content: space-evenly
   align-items: baseline
 .newsCaption-title
-  margin-top: 0px
+  margin-top: .7rem
 .newsCaption-content
   margin: 0
   display: table-cell
@@ -466,4 +466,6 @@ export default {
   transition: opacity 0.1s, -webkit-transform 0.4s
   transition: transform 0.4s, opacity 0.1s
   transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s
+.newsCaption-content p
+  font-size: .9rem
 </style>

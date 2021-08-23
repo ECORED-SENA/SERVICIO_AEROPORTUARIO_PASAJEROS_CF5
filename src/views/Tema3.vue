@@ -55,7 +55,7 @@
     .tarjeta.text-white.p-3.mt-5.caja_flotante_rosada.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffb74d, rgb(255 212 146))")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema3/3.svg" style="max-width:100px")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -208,7 +208,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Programa estatal para la gestión de autoridad en seguridad ocupacional
+              h3(data-aos="fade-up" style="color: #12263F !important;") Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") En materia de autoridad en seguridad operacional, la Aeronáutica Civil presenta el documento denominado Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional, que se puede consultar en el siguiente enlace:
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/PEGASO Rev.3 - SSP Colombia.pdf')" target="_blank")
