@@ -173,7 +173,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(style="color: #12263F !important;") Elementos importantes de la atención #[br] en tierra al viajero
+              h3(style="color: #12263F !important;") Elementos importantes de la atención #[br] en tierra al viajero.
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/atencionalviajero.pdf')" target="_blank")
                 span.text-white Descargar

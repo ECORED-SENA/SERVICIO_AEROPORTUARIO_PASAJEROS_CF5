@@ -60,7 +60,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Manual
-              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para conocer detalladamente sobre el Manual con la Reglamentación del Transporte Aéreo Internacional, consulte el siguiente enlace: 
+              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para conocer detalladamente sobre el Manual con la Reglamentación del Transporte Aéreo Internacional, consulte el siguiente documento. 
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc 9626_es.pdf')" target="_blank")
                 span.text-white Descargar
@@ -132,7 +132,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Derechos y deberes de los usuarios
-              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Según lo previsto en la Ley 1955 de 2019, la Superintendencia de Transporte presenta las disposiciones sobre la protección al usuario del Transporte aéreo y con el Decreto 2409 le corresponde impartir la debida prestación del servicio público de transporte que se divulga por medio de la Guía de los derechos y deberes de los usuarios en el siguiente enlace:
+              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Según lo previsto en la Ley 1955 de 2019, la Superintendencia de Transporte presenta las disposiciones sobre la protección al usuario del Transporte aéreo y con el Decreto 2409 le corresponde impartir la debida prestación del servicio público de transporte que se divulga por medio de la Guía de los derechos y deberes de los usuarios en el siguiente documento.
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/guia-aereo_12.pdf')" target="_blank")
                 span.text-white Descargar
@@ -146,7 +146,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Manual sobre reglamentación del transporte aéreo internacional
-              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Mediante documento emitido por la OACI Doc. 9626 Manual sobre reglamentación del transporte aéreo internacional, en el capítulo 4.9 Pasajeros de las líneas aéreas - Derechos de los pasajeros, se puede ampliar la información de directrices a seguir en todos los protocolos de atención, para ello se presenta el siguiente enlace:
+              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Mediante documento emitido por la OACI Doc. 9626 Manual sobre reglamentación del transporte aéreo internacional, en el capítulo 4.9 Pasajeros de las líneas aéreas - Derechos de los pasajeros, se puede ampliar la información de directrices a seguir en todos los protocolos de atención, para ello se presenta el siguiente documento.
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc 9626_es (2).pdf')" target="_blank")
                 span.text-white Descargar
@@ -209,7 +209,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional
-              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") En materia de autoridad en seguridad operacional, la Aeronáutica Civil presenta el documento denominado Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional, que se puede consultar en el siguiente enlace:
+              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") En materia de autoridad en seguridad operacional, la Aeronáutica Civil presenta el documento denominado Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional, que se puede consultar en el siguiente documento.
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/PEGASO Rev.3 - SSP Colombia.pdf')" target="_blank")
                 span.text-white Descargar
@@ -317,7 +317,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Reglamentos Aeronáuticos de Colombia
-              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para la seguridad aeronáutica tanto de pasajeros como de personal de las aerolíneas, se debe cumplir con todos los protocolos de seguridad dispuestos. Con el fin de ampliar esta información, se recomienda consultar el documento RAC 175 de la Aeronáutica Civil Colombiana denominado Transporte sin riesgos de mercancías peligrosas en el siguiente enlace:
+              p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para la seguridad aeronáutica tanto de pasajeros como de personal de las aerolíneas, se debe cumplir con todos los protocolos de seguridad dispuestos. Con el fin de ampliar esta información, se recomienda consultar el documento RAC 175 de la Aeronáutica Civil Colombiana denominado Transporte sin riesgos de mercancías peligrosas en el siguiente documento.
             .col-sm-auto
               a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/RAC  175 - Transporte sin Riesgo de Mercancías Peligrosas por vía Aérea.pdf')" target="_blank")
                 span.text-white Descargar

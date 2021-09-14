@@ -466,6 +466,13 @@ export default {
   transition: opacity 0.1s, -webkit-transform 0.4s
   transition: transform 0.4s, opacity 0.1s
   transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s
+.news-Slide-up:hover .newsCaption-title
+  place-self: center !important
+  margin: 0 !important
 .newsCaption-content p
   font-size: .9rem
+@media (max-width: 990px)
+  h4.newsCaption-title
+    font-size: 15px !important
+    margin-top: .2rem !important
 </style>
