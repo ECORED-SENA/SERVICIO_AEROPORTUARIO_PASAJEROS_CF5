@@ -157,7 +157,7 @@
     h5.mt-4(data-aos="fade-up") Según las regulaciones aeronáuticas que controlan este proceso los servicios especializados aeroportuarios se clasifican como:
 
     .row.mt-5.col-md-10.m-auto
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/20.svg")
@@ -166,7 +166,7 @@
             .newsCaption-content
               p.text-white.p-3 Personal que asiste a las aeronaves en tierra, encargados de procedimientos como embarque y desembarque de carga, equipajes, pasajeros y mensajería.
 
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/21.svg")
@@ -175,7 +175,7 @@
             .newsCaption-content
               p.p-3(style="color:#12263F;") Encargados de realizar el abastecimiento de combustible siguiendo diversas normas técnicas para garantizar la seguridad de la aeronave, del aeropuerto, de la carga, de los operadores y usuarios.
 
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/22.svg")
@@ -184,7 +184,7 @@
             .newsCaption-content
               p.text-white.p-3 Encargados de proveer el servicio a bordo de las aeronaves, siempre cumpliendo normas sanitarias, de higiene y de protección del personal.
 
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/23.svg")
@@ -193,7 +193,7 @@
             .newsCaption-content
               p.p-3(style="color:#12263F;") Zona de servicios para el manejo de mercancías, el cual debe contar con infraestructura especial, balanzas en buen estado, certificaciones de calibración; instalaciones señalizadas; certificaciones y áreas especiales para mercancías peligrosas, valores, animales vivos; así como contar con implementos de seguridad.
 
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/24.svg")
@@ -202,7 +202,7 @@
             .newsCaption-content
               p.text-white.p-3 Aquí encontramos los servicios de limpieza y presentación de las aeronaves. Deberá contarse con los implementos mínimos de seguridad en forma permanente.
 
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/25.svg")
@@ -211,7 +211,7 @@
             .newsCaption-content
               p.p-3(style="color:#12263F;") Encargados de los trabajos y servicios técnicos para mantener las aeronaves en condiciones aeronavegables.
 
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/26.svg")
@@ -220,7 +220,7 @@
             .newsCaption-content
               p.text-white.p-3 Es el personal encargado de brindar a los pasajeros la atención requerida para llevar a cabo su proceso de viaje, en esta área encontramos personal en áreas como, ventas, registro o #[em Check in] de vuelos, salas de abordaje, conexiones, bandas de equipaje, salas VIP.
 
-      .col-md-6.mb-4
+      .col-md-12.col-lg-6.mb-4.col-sm-12
         .newsCard.news-Slide-up.caja_flotante(data-aos="fade-up")
           figure
             img(src="@/assets/curso/tema1/27.svg")
@@ -444,6 +444,7 @@ export default {
   align-items: baseline
 .newsCaption-title
   margin-top: .7rem
+  font-size: 17px
 .newsCaption-content
   margin: 0
   display: table-cell
@@ -469,10 +470,12 @@ export default {
 .news-Slide-up:hover .newsCaption-title
   place-self: center !important
   margin: 0 !important
+.news-Slide-up:hover .newsCaption
+  align-content: center !important
 .newsCaption-content p
   font-size: .9rem
-@media (max-width: 990px)
+@media (max-width: 600px)
   h4.newsCaption-title
     font-size: 15px !important
-    margin-top: .2rem !important
+    margin-top: 2rem !important
 </style>
