@@ -470,6 +470,7 @@ export default {
 .news-Slide-up:hover .newsCaption-title
   place-self: center !important
   margin: 0 !important
+  margin-bottom: 1rem !important
 .news-Slide-up:hover .newsCaption
   align-content: center !important
 .newsCaption-content p
