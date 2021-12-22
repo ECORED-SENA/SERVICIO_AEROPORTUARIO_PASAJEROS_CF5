@@ -225,12 +225,12 @@ export default {
       texto:
         'Unidad Administrativa Especial de Aeronáutica Civil. (2020). RAC 1. Aerocivil.',
       tipo: 'PDF',
-      descarga: 'downloads/RAC  1 -  Definiciones.pdf',
+      descarga: 'downloads/RAC_1_Definiciones.pdf',
     },
     {
       texto: 'Ávila. C. (2021). Clasificación mercancías peligrosas.',
       tipo: 'Excel',
-      descarga: 'downloads/Mercancias peligrosas.xlsx',
+      descarga: 'downloads/Mercancias_peligrosas.xlsx',
     },
   ],
   creditos: {

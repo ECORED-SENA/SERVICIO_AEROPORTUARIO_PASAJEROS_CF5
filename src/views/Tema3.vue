@@ -22,7 +22,7 @@
               h3(style="color: #12263F !important;") RAC 1
               p.mt-3(style="color: #12263F !important;") Con el fin de ampliar información sobre: cuestiones preliminares, disposiciones iniciales,  definiciones y abreviaturas, descargue el siguiente documento.
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/RAC  1 -  Definiciones.pdf')" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/RAC_1_Definiciones.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
@@ -62,7 +62,7 @@
               h3(data-aos="fade-up" style="color: #12263F !important;") Manual
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para conocer detalladamente sobre el Manual con la Reglamentación del Transporte Aéreo Internacional, consulte el siguiente documento. 
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc 9626_es.pdf')" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc_9626_es.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
@@ -148,7 +148,7 @@
               h3(data-aos="fade-up" style="color: #12263F !important;") Manual sobre reglamentación del transporte aéreo internacional
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Mediante documento emitido por la OACI Doc. 9626 Manual sobre reglamentación del transporte aéreo internacional, en el capítulo 4.9 Pasajeros de las líneas aéreas - Derechos de los pasajeros, se puede ampliar la información de directrices a seguir en todos los protocolos de atención, para ello se presenta el siguiente documento.
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc 9626_es (2).pdf')" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc_9626_es_(2).pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
@@ -211,7 +211,7 @@
               h3(data-aos="fade-up" style="color: #12263F !important;") Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") En materia de autoridad en seguridad operacional, la Aeronáutica Civil presenta el documento denominado Programa Estatal para la Gestión de Autoridad en Seguridad Ocupacional, que se puede consultar en el siguiente documento.
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/PEGASO Rev.3 - SSP Colombia.pdf')" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/PEGASO_Rev.3_SSP_Colombia.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
@@ -319,7 +319,7 @@
               h3(data-aos="fade-up" style="color: #12263F !important;") Reglamentos Aeronáuticos de Colombia
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Para la seguridad aeronáutica tanto de pasajeros como de personal de las aerolíneas, se debe cumplir con todos los protocolos de seguridad dispuestos. Con el fin de ampliar esta información, se recomienda consultar el documento RAC 175 de la Aeronáutica Civil Colombiana denominado Transporte sin riesgos de mercancías peligrosas en el siguiente documento.
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/RAC  175 - Transporte sin Riesgo de Mercancías Peligrosas por vía Aérea.pdf')" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/RAC_175_Transporte_sin_Riesgo_de_Mercancias_Peligrosas_por_via_Aerea.pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
@@ -333,7 +333,7 @@
               h3(data-aos="fade-up" style="color: #12263F !important;") Clasificación de Mercancías Peligrosas
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") El Comité de Expertos en Transporte de Mercancías Peligrosas de las Naciones Unidas, clasifica las mercancías peligrosas identificándolas en nueve (9) grupos de riesgos potenciales para su transporte aéreo. Se recomienda descargar el documento para revisar la clasificación de este tipo de mercancías.
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Mercancias peligrosas.xlsx')" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Mercancias_peligrosas.xlsx')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
