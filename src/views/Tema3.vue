@@ -148,7 +148,7 @@
               h3(data-aos="fade-up" style="color: #12263F !important;") Manual sobre reglamentación del transporte aéreo internacional
               p.mt-3(data-aos="fade-up" style="color: #12263F !important;") Mediante documento emitido por la OACI Doc. 9626 Manual sobre reglamentación del transporte aéreo internacional, en el capítulo 4.9 Pasajeros de las líneas aéreas - Derechos de los pasajeros, se puede ampliar la información de directrices a seguir en todos los protocolos de atención, para ello se presenta el siguiente documento.
             .col-sm-auto
-              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc_9626_es_(2).pdf')" target="_blank")
+              a.boton.boton--b.color-secundario.text-white(style="background-color:#5038A1;" :href="obtenerLink('downloads/Doc_9626_es(2).pdf')" target="_blank")
                 span.text-white Descargar
                 i.fas.fa-file-download
 
